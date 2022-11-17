@@ -16,7 +16,6 @@ package level0;
 //입출력 #1
 //
 //15 이하의 홀수가 담긴 배열 [1, 3, 5, 7, 9, 11, 13, 15]를 return합니다.
-import java.util.*;
 class Teat19 {
     public int[] solution(int n) {
         int[] answer;
@@ -29,20 +28,6 @@ class Teat19 {
                 aa++;
             }
         }
-        return answer;
-    }
-}
-
-class Solution19 {
-    public ArrayList solution(int n) {
-        ArrayList<Integer> answer = new ArrayList<Integer>();
-
-        for(int i=1; i<=n; i++){
-          if(i%2 != 0) {
-              answer.add(i); // 짝수가 아니라면 리스트에 값을 넣어준다
-          } 
-        }
-
         return answer;
     }
 }
