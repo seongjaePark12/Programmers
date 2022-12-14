@@ -39,9 +39,10 @@ lines	result
 import java.util.ArrayList;
 class Test89 {
 		class Solution {
-		    public int solution(int[][] lines) {
-		        int answer = 0;
-		        ArrayList<Integer> arrayList = new ArrayList();
+		    @SuppressWarnings("unchecked")
+				public int solution(int[][] lines) {
+		        @SuppressWarnings("rawtypes")
+						ArrayList<Integer> arrayList = new ArrayList();
 
 		        //가설
 		        //완벽하게 일치, 교집합, 하나가 다른 하나에 완벽하게 포함
