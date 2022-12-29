@@ -1,6 +1,5 @@
 package level1;
 
-import javax.xml.stream.events.Characters;
 
 /*
 문제 설명
