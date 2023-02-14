@@ -18,7 +18,6 @@ a	b	result
 */
 class Test44 {
 	public static void main(String[] args) {
-		int a = 5;int b = 24;
 		Calendar cal = Calendar.getInstance();
 		cal.set(2016, 5-1,24);
 		String aa =String.valueOf(new Date(cal.getTimeInMillis()));

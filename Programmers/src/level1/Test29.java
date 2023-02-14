@@ -31,6 +31,7 @@ class Test29 {
     for(int i=1; i<=b; i++) {
     	System.out.println(s);
     }
+    sc.close();
     
 		System.out.println();
 	}
