@@ -41,7 +41,6 @@ k	m	score	result
 */
 class Test53 {
 	public static void main(String[] args) {
-		int k = 3;
 		int m = 4;
 		Integer[] score = {1, 2, 3, 1, 2, 3, 1};
 		int answer = 0;
